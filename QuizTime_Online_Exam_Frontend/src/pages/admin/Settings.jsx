@@ -551,7 +551,7 @@ const Settings = () => {
                                             disabled={!isEmailEditable}
                                             onFocus={e => e.currentTarget.style.borderColor = 'var(--primary)'}
                                             onBlur={e => e.currentTarget.style.borderColor = 'var(--border)'}
-                                            placeholder="sanjeeth@example.com"
+                                            placeholder=" hamsa.sarves@gmail.com"
                                         />
                                     </div>
                                     <div>

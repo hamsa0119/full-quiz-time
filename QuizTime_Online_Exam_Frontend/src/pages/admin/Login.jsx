@@ -3,7 +3,7 @@ import { useNavigate, Navigate } from 'react-router-dom';
 import { Lock, Mail, ArrowRight } from 'lucide-react';
 import { API_BASE_URL } from '../../config/api';
 import quiztimeLogo from '../../assets/logo.png'; // Ensure a logo.png is present here
-import { mockLogin, mockRequestOtp, mockVerifyOtp, mockResetPassword } from '../../mocks/authMock';
+import { mockRequestOtp, mockVerifyOtp, mockResetPassword } from '../../mocks/authMock';
 
 
 const AdminLogin = () => {
@@ -17,8 +17,8 @@ const AdminLogin = () => {
     }
 
     // Login States
-    const [username, setUsername] = useState('admin');
-    const [password, setPassword] = useState('admin123');
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
     const [isLoading, setIsLoading] = useState(false);
     const [isVerifying, setIsVerifying] = useState(false);
     const [isResending, setIsResending] = useState(false);
@@ -58,8 +58,16 @@ const AdminLogin = () => {
         setIsLoading(true);
         setStatusMsg('');
         try {
-            // Mock login for demo
-            const data = await mockLogin(username, password);
+            // Real backend login
+            const res = await fetch(`${API_BASE_URL}/api/auth/login`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username, password }),
+            });
+            const data = await res.json();
+            if (!res.ok) {
+                throw new Error(data.message || 'Login failed. Please check your credentials.');
+            }
             localStorage.setItem('adminToken', data.token);
             localStorage.setItem('adminUser', JSON.stringify(data.admin));
             navigate('/admin/dashboard');
