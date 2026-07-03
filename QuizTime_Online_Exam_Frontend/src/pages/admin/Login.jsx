@@ -3,6 +3,8 @@ import { useNavigate, Navigate } from 'react-router-dom';
 import { Lock, Mail, ArrowRight } from 'lucide-react';
 import { API_BASE_URL } from '../../config/api';
 import quiztimeLogo from '../../assets/logo.png'; // Ensure a logo.png is present here
+import { mockLogin, mockRequestOtp, mockVerifyOtp, mockResetPassword } from '../../mocks/authMock';
+
 
 const AdminLogin = () => {
     const navigate = useNavigate();
@@ -15,8 +17,8 @@ const AdminLogin = () => {
     }
 
     // Login States
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
+    const [username, setUsername] = useState('admin');
+    const [password, setPassword] = useState('admin123');
     const [isLoading, setIsLoading] = useState(false);
     const [isVerifying, setIsVerifying] = useState(false);
     const [isResending, setIsResending] = useState(false);
@@ -56,14 +58,8 @@ const AdminLogin = () => {
         setIsLoading(true);
         setStatusMsg('');
         try {
-            const res = await fetch(`${API_BASE_URL}/api/auth/login`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ username, password })
-            });
-            const data = await res.json();
-            if (!res.ok) throw new Error(data.message || 'Login failed.');
-
+            // Mock login for demo
+            const data = await mockLogin(username, password);
             localStorage.setItem('adminToken', data.token);
             localStorage.setItem('adminUser', JSON.stringify(data.admin));
             navigate('/admin/dashboard');
@@ -88,16 +84,10 @@ const AdminLogin = () => {
         setStatusMsg('');
 
         try {
-            const res = await fetch(`${API_BASE_URL}/api/auth/forgot-password/request`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ email })
-            });
-            const data = await res.json();
-            if (!res.ok) throw new Error(data.message || 'Failed to send OTP.');
-
+            // Mock request OTP for demo
+            const data = await mockRequestOtp(email);
             setStatusMsg(isResend ? 'OTP resent successfully!' : data.message);
-            setResendTimer(60); // Start 60s cooldown
+            setResendTimer(60);
             if (!isResend) {
                 setOtpArray(['', '', '', '']);
                 setView('forgot-otp');
@@ -123,14 +113,8 @@ const AdminLogin = () => {
 
         setIsVerifying(true);
         try {
-            const res = await fetch(`${API_BASE_URL}/api/auth/forgot-password/verify`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ email, otp })
-            });
-            const data = await res.json();
-            if (!res.ok) throw new Error(data.message || 'Verification failed.');
-
+            const data = await mockVerifyOtp(email, otp);
+            if (!data.success) throw new Error(data.message || 'Verification failed.');
             setView('forgot-reset');
         } catch (err) {
             setErrorMsg(err.message);
@@ -170,14 +154,8 @@ const AdminLogin = () => {
         setIsLoading(true);
         setStatusMsg('');
         try {
-            const res = await fetch(`${API_BASE_URL}/api/auth/forgot-password/reset`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ email, otp: otpArray.join(''), newPassword })
-            });
-            const data = await res.json();
-            if (!res.ok) throw new Error(data.message || 'Reset failed.');
-
+            const data = await mockResetPassword(email, otpArray.join(''), newPassword);
+            if (!data.success) throw new Error(data.message || 'Reset failed.');
             setView('forgot-success');
         } catch (err) {
             setErrorMsg(err.message);

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b2a8792-c31e-4130-9ed7-5e28f5e07fef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/ExamApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/config/AsyncConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/config/DataInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/config/DatabaseMigrationRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/config/PasswordConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/controller/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/controller/DashboardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/controller/EmailConfigController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/controller/ExamEntryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/controller/ExamPortalController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/controller/ForgotPasswordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/controller/GradingScaleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/controller/QuestionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/controller/SubmissionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/controller/WelcomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/BulkAssignRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/CategoryConfigRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/CategoryRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/EmailConfigRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/ExamCompleteRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/ExamEntryResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/ExamEntryValidationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/ExamPortalQuestionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/ExamStartRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/ForgotPasswordRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/LoginResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/PasswordChangeRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/ProfileUpdateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/QuestionRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/QuestionResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/SmtpTestResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/StatusUpdateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/StudentGroupRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/StudentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/StudentResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/SubmissionDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/SubmissionRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/SubmissionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/TestRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/dto/TestResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/model/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/model/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/model/EmailConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/model/GradingScale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/model/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/model/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/model/StudentExamCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/model/Submission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/model/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/model/TestCategoryConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/model/TestStudentGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/repository/AdminRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/repository/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/repository/EmailConfigRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/repository/GradingScaleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/repository/QuestionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/repository/StudentExamCodeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/repository/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/repository/SubmissionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/repository/TestRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/scheduler/ExamExpiryScheduler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/AdminService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/AdminServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/AuthServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/DashboardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/DashboardServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/EmailConfigService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/EmailConfigServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/ExamEntryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/ExamEntryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/ExamPortalService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/ExamPortalServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/ForgotPasswordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/ForgotPasswordServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/GradingScaleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/QuestionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/QuestionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/SubmissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/SubmissionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/TestSchedulerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/TestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgic/exam/service/TestServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sgic/exam/ExamApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/ExamApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/config/AsyncConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/config/CorsConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/config/DataInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/config/DatabaseMigrationRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/config/PasswordConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/controller/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/controller/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/controller/DashboardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/controller/EmailConfigController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/controller/ExamEntryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/controller/ExamPortalController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/controller/ForgotPasswordController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/controller/GradingScaleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/controller/QuestionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/controller/StudentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/controller/SubmissionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/controller/WelcomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/BulkAssignRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/CategoryConfigRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/CategoryRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/EmailConfigRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/ExamCompleteRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/ExamEntryResponse$ExamEntryResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/ExamEntryResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/ExamEntryValidationRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/ExamPortalQuestionResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/ExamStartRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/ForgotPasswordRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/LoginResponse$AdminInfo$AdminInfoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/LoginResponse$AdminInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/LoginResponse$LoginResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/LoginResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/PasswordChangeRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/ProfileUpdateRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/QuestionRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/QuestionResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/SmtpTestResponse$SmtpTestResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/SmtpTestResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/StatusUpdateRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/StudentGroupRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/StudentRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/StudentResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/SubmissionDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/SubmissionRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/SubmissionResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/TestRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/TestResponse$CategoryConfigDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/TestResponse$QuestionDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/TestResponse$StudentDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/TestResponse$StudentGroupDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/dto/TestResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/model/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/model/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/model/EmailConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/model/GradingScale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/model/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/model/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/model/StudentExamCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/model/Submission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/model/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/model/TestCategoryConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/model/TestStudentGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/repository/AdminRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/repository/CategoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/repository/EmailConfigRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/repository/GradingScaleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/repository/QuestionRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/repository/StudentExamCodeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/repository/StudentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/repository/SubmissionRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/repository/TestRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/scheduler/ExamExpiryScheduler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/AdminServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/AuthService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/AuthServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/DashboardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/DashboardServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/DashboardServiceImpl$QuestionResultConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/DashboardServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/EmailConfigService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/EmailConfigServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/EmailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/ExamEntryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/ExamEntryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/ExamPortalService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/ExamPortalServiceImpl$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/ExamPortalServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/ForgotPasswordService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/ForgotPasswordServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/GradingScaleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/QuestionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/QuestionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/StudentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/SubmissionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/SubmissionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/TestSchedulerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/TestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgic/exam/service/TestServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/exam-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/exam-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2026-04-07T12-03-48_330.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sgic.exam.ExamApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.sgic.exam.ExamApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sgic/exam/ExamApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizTime_Online_Exam_Frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizTime_Online_Exam_Frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizTime_Online_Exam_Frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizTime_Online_Exam_Frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizTime_Online_Exam_Frontend/src/config/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizTime_Online_Exam_Frontend/src/config/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizTime_Online_Exam_Frontend/src/pages/admin/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizTime_Online_Exam_Frontend/src/pages/admin/Login.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3BGktHbxxECI4x3hoGYvb17yrQl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ExamApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.exam [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.exam [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ExamApplication.executor&quot;: &quot;Run&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/EXAM/SGIC_Online_Exam_Backend&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  }
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ExamApplication">
+    <configuration name="ExamApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quiztime.exam.ExamApplication" />
+      <module name="exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quiztime.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="exam" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.quiztime.exam.ExamApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quiztime.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ExamApplication" />
+        <item itemvalue="Application.ExamApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b2a8792-c31e-4130-9ed7-5e28f5e07fef" name="Changes" comment="" />
+      <created>1774123009582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774123009582</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/QuizTime_Online_Exam_Backend$ExamApplication.ic" NAME="ExamApplication Coverage Results" MODIFIED="1781322436397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.quiztime.exam.*</FILTER>
+    </SUITE>
+  </component>
+</project>
